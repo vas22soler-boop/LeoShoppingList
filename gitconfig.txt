@@ -1,0 +1,14 @@
+-- Configuração do GIT
+git config --global user.name LeonardoA
+git config --global user.email vas22soler@gmail.com
+
+-- Criar um projeto vazio
+npx create-expo-app@latest nome --template blank
+
+--Toda Aula ao começar
+cd nome do projeto
+npm i
+
+--Executar o projeto
+npx expo start --tunnel
+
